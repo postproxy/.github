@@ -30,23 +30,26 @@ Use it to add social publishing, comments, DMs, reviews, analytics, and automati
 
 ## Supported platforms
 
-Postproxy supports major social platforms, including:
+Postproxy supports major social platforms and keeps platform-specific documentation in one place.
 
-* Facebook
-* Instagram
-* TikTok
-* LinkedIn
-* YouTube
-* X / Twitter
-* Threads
-* Pinterest
-* Bluesky
-* Telegram
-* Google Business
+| Platform        | Publishing formats            | Docs                                                                          |
+| --------------- | ----------------------------- | ----------------------------------------------------------------------------- |
+| Facebook        | Feed post, Reel, Story        | [Facebook](https://postproxy.dev/reference/platforms/facebook/)               |
+| Instagram       | Feed post, Reel, Story        | [Instagram](https://postproxy.dev/reference/platforms/instagram/)             |
+| Threads         | Feed post                     | [Threads](https://postproxy.dev/reference/platforms/threads/)                 |
+| X / Twitter     | Tweet, Poll                   | [X / Twitter](https://postproxy.dev/reference/platforms/twitter/)             |
+| LinkedIn        | Feed post                     | [LinkedIn](https://postproxy.dev/reference/platforms/linkedin/)               |
+| YouTube         | Channel video                 | [YouTube](https://postproxy.dev/reference/platforms/youtube/)                 |
+| TikTok          | Video, Images                 | [TikTok](https://postproxy.dev/reference/platforms/tiktok/)                   |
+| Pinterest       | Pin                           | [Pinterest](https://postproxy.dev/reference/platforms/pinterest/)             |
+| Bluesky         | Feed post                     | [Bluesky](https://postproxy.dev/reference/platforms/bluesky/)                 |
+| Telegram        | Channel post                  | [Telegram](https://postproxy.dev/reference/platforms/telegram/)               |
+| Google Business | Standard, Event, Offer, Photo | [Google Business](https://postproxy.dev/reference/platforms/google-business/) |
 
 Reddit support is coming soon.
 
 Platform rules change because platforms apparently enjoy making developers suffer. Postproxy handles that layer so your product can keep a cleaner API surface.
+
 
 ## API
 
